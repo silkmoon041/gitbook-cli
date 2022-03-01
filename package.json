@@ -6,7 +6,7 @@
   "scripts": {
     "build": "gitbook build",
     "serve": "gitbook serve",
-    "deploy": "gitbook build &&  cp -R ./_book/* _public && gh-pages -d _public -b gh-pages",
+    "deploy": "gitbook build && cp -R ./_book/* _public && gh-pages -d _public -b gh-pages",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
