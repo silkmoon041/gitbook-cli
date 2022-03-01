@@ -1,0 +1,25 @@
+{
+  "name": "02.gitbook-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "build": "gitbook build",
+    "serve": "gitbook serve",
+    "deploy": "gitbook build &&  cp -R ./_book/* _public && gh-pages -d _public -b gh-pages",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silkmoon041/gitbook-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silkmoon041/gitbook-cli/issues"
+  },
+  "homepage": "https://github.com/silkmoon041/gitbook-cli#readme",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
