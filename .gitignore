@@ -7,6 +7,7 @@
 **/test
 **/old*
 **/_book
+_public
 publish_gitbook.sh
 .env
 
